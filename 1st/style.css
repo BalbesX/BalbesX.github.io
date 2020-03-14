@@ -56,3 +56,17 @@
 img:hover {
     width: 100%;
    }
+
+   button {
+    font-size: 30px;
+    border: 2px solid firebrick;
+    border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: darkred;
+}
+.but {
+    text-align: center;
+}

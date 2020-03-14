@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+}
+
+.list {
+width: 60%;
+margin: auto;
+}
+
+button {
+    font-size: 30px;
+    border: 2px solid firebrick;
+    border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: darkred;
+}
+.but {
+    text-align: center;
+}
