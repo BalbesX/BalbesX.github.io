@@ -1,4 +1,7 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
+body {
+background-color: rgba(233, 150, 122, 0.349);    
+}
 
 p{
     display: inline-block;
@@ -12,12 +15,16 @@ form input{
     border-radius: 10px; 
     border:3px dashed rgba(0, 0, 0, 0.281);
     background-color: rgba(247, 222, 0, 0.507);
-    box-shadow: 3px 3px 5px rgb(249, 253, 12);
+   
+    /* box-shadow: 3px 3px 5px rgb(249, 253, 12); */
 }
 form{
     width: 500px;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5%;
+    border: 15px dashed sandybrown;
+    /* background-color: rgba(244, 197, 96, 0.548); */
 }
 label{
     display: block;
@@ -35,12 +42,13 @@ label{
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid rosybrown;
+    border: 3px solid rosybrown;
     font-size: 20px;
 }
 .syb input:hover{
-    border: 3px solid rgb(240, 81, 81);
-    box-shadow: 0 0 10px rgb(200, 255, 0);
+    border: 3px solid sandybrown;
+    box-shadow: 0 0 10px rgb(245, 114, 0);
+    cursor: pointer;
 }
 #checkboxes {
     width: 5%;
@@ -49,4 +57,7 @@ label{
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+#dater:hover {
+    cursor: pointer;
 }
