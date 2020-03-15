@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="">
+    <div class="name">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" required placeholder="Ввидите ваше настоящее имя">
+    </div>
+    <div class="login">
+        <label for="login">Ник:</label>
+        <input type="text" id="login" required placeholder="Ввидите ваш Никнейм">
+    </div>
+    <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Ввидите ваш Email адрес">
+    </div>
+    <div class="countr">
+        <label for="countr">Страна:</label>
+        <input list="cocktail" required placeholder="Выбирите вашу страну">
+        <datalist id="cocktail">
+         <option>Россия</option>
+         <option>Украина</option>
+         <option>Белоруссия</option>
+         <option>Чехия</option>
+         <option>США</option>
+         <option>Финляндия</option>
+        </datalist>
+    </div>
+    <div class="pass">
+        <label for="">Пароль:</label>
+        <input type="password" name="" id="" required placeholder="Придумайте пароль">
+        <label for="">Подтвердите пароль:</label>
+        <input type="password" name="" id="" required placeholder="Повторите пароль">
+    </div>
+    <div class="spam">
+        <label for="checkboxes">Получение рассылки:</label>
+        <input type="checkbox" name="" id="checkboxes">
+    </div>
+    <div class="sex ">
+        <p>Выбирите пол:</p>
+        <p>Мужской</p>
+        <input type="radio" name="sex" id="checkboxes">
+
+        <p>Женский</p>
+        <input type="radio" name="sex" id="checkboxes">
+    </div>
+        <div class="date">
+        <p>Дата рождения:</p>
+        <input type="date" name="Дата рождения" id="">
+    </div>
+    <div class="syb">
+        <input type="submit" value="Зарегистрироваться">
+    </div>
+  </form>
+  <div class="back">
+    <input type="button" onclick="history.back();" value="Назад"/>
+  </div>
+</body>
+</html>

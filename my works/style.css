@@ -17,6 +17,8 @@ a{
     text-decoration: none;
     color: darkred;
 }
-.but {
-    text-align: center;
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }

@@ -71,3 +71,8 @@ li {
     margin-left: 25%;
     list-style-type: none;
 }
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
