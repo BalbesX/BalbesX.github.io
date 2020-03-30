@@ -1,0 +1,132 @@
+/* Повторяющеися стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    background: #f6f8f9;
+    color: #44525e;
+    font-size: 18px;
+    font-family: Aril, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#orange {
+    color: #ff7013;
+}
+
+/* Уникальный стиль */
+footer {
+    background-color: white;
+}
+
+.footer_block {
+    width: 1200px;
+    /* min-height: 100px; */
+    margin: 0 auto;
+    padding: 60px 0 44px 0;
+}
+
+.footer_logo {
+    width: 29.83333%;
+    min-height: 100px;
+    font-size: 14px;
+    float: left;
+    margin-right: 1%;
+}
+
+.footer_logo::before {
+    content: "";
+    display: inline-block;
+    width: 117px;
+    height: 38px;
+    margin-bottom: 20px;
+    background-image: url(../../source/images/footer_logo.png);
+}
+
+.footer_block::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav {
+    float: left;
+    display: inline-block;
+    width: 13.166666%;
+    margin: 10px 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #44525e;
+    font-size: 14px;
+}
+
+.nav li {
+    margin-bottom: 10px;
+}
+
+footer a:hover {
+    color: #ff7013;
+}
+
+.payment h3 {
+    font-size: 16px;
+    color: red;
+}
+
+.payment {
+    width: 14.166666%;
+    float: left;
+    padding: 20px 0;
+    margin-left: 2%;
+}
+
+.cards {
+    margin-top: 10px;
+}
+
+.payment .card_1 {
+    width: 25px;
+    height: 17px;
+    background-image: url(../../source/images/payment_bg.png);
+    display: inline-block;
+}
+
+.payment .card_2 {
+    width: 25px;
+    height: 17px;
+    background-image: url(../../source/images/payment_bg.png);
+    display: inline-block;
+    background-position: -36px 0px;
+}
+
+.payment .card_3 {
+    width: 25px;
+    height: 17px;
+    background-image: url(../../source/images/payment_bg.png);
+    display: inline-block;
+    background-position: -72px 0px;
+}
+
+.payment .card_4 {
+    width: 25px;
+    height: 17px;
+    background-image: url(../../source/images/payment_bg.png);
+    display: inline-block;
+    background-position: -108px 0px;
+}
+
+.payment .card_5 {
+    width: 25px;
+    height: 17px;
+    background-image: url(../../source/images/payment_bg.png);
+    display: inline-block;
+    background-position: -144px 0px;
+}

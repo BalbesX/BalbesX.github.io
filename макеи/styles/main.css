@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:200,300,400&display=swap');
+
+
+.header {
+    width: 1400px;
+}
+
+.wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header .wrap {
+    background-color: black;
+}
+
+header .container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: ;
+}
+
+header .logo {
+    float: left;
+    display: inline-block;
+}
+
+header .logo img {
+    margin: 23px 0 22px 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header li {
+    display: inline-block;
+    margin: ;
+
+}
+
+header a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #c1c1c1;
+    text-decoration: none;
+    margin: 0 0 0 45px;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: #ff8b38;
+}
+
+.reg {
+    background-color: #9a9a9a;
+}
+
+.reg .container {
+    margin: 0 auto;
+    width: 1100px;
+    min-height: 640px;
+}
+
+.info {
+    width: 50%;
+    float: left;
+}
+
+.info img {
+    margin: 110px 0 25px 0px;
+}
+
+.info h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    color: #fff;
+}
+
+.info .line {
+    margin: 40px 0;
+    width: 65px;
+    height: 2px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #c1c1c1;
+}
+
+.info input {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    padding: 12px 0;
+    text-align: center;
+    width: 130px;
+    border: 2px solid #fff;
+    background-color: #9a9a9a;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.info input:hover {
+    border: 2px solid #ff8b38;
+    ;
+}
+
+.container_two {
+    width: 50%;
+    float: left;
+}
+
+.form {
+    width: 360px;
+    min-height: 360px;
+    margin-top: 140px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 10px -5px black;
+}
+
+.form h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 55px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+
+.form h2 span {
+    color: #ff8b38;
+}
+
+.inputs {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.form input {
+    display: block;
+}
+
+.form button {
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #ff8b38;
+    line-height: 55px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: #f5f5f5;
+    border-radius: 0 0 4px 4px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.form button:hover {
+    background-color: #f5f5f5;
+    color: #ff8b38;
+
+}
+
+.form input {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}

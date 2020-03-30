@@ -1,0 +1,55 @@
+/* Повторяющеися стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    background: #f6f8f9;
+    color: #44525e;
+    font-size: 18px;
+    font-family: Aril, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#orange {
+    color: #ff7013;
+}
+
+/* Уникальный стиль */
+
+.newprod h3 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.newprod {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.prod {
+    width: 250px;
+    height: 365px;
+    margin: 80px 15px;
+    background-color: white;
+    float: left;
+}
+
+.prod img {
+    margin-top: 30px;
+}
+
+.prod span {
+    color: #ff7013;
+}
+
+
+

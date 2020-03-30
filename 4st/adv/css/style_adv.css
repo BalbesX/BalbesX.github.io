@@ -1,0 +1,119 @@
+/* Повторяющеися стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    background: #f6f8f9;
+    color: #44525e;
+    font-size: 18px;
+    font-family: Aril, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#orange {
+    color: #ff7013;
+}
+
+/* Уникальный стиль */
+
+.adv {
+    width: 1200px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.add_block {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #eaedef;
+    float: left;
+    margin: 0 -2%;
+
+}
+
+.add_block2 {
+    width: 49%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #eaedef;
+    float: left;
+    margin-left: 1%;
+}
+
+.logo-adv {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.adv .sale {
+    width: 80px;
+    height: 80px;
+    background-image: url(../../source/images/sale_img.png);
+    margin: 10px auto;
+}
+
+.sale_t {
+    padding-top: 18px;
+    font-style: italic;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.sale_n {
+    color: #fff;
+}
+
+.slog-adv {
+    width: 40%;
+    float: left;
+    margin: 0 2%;
+    padding-top: 25px;
+    position: relative;
+}
+
+.slog-adv p {
+    padding-left: 10px;
+    font-size: 12px;
+    margin-left: -4%;
+    margin-top: 5px;
+}
+
+.sale-adv {
+    width: 23%;
+    min-height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 2%;
+    padding-left: 20px;
+}
+
+.sale-adv p::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../../source/images/card_plus.png);
+    margin-right: 30px;
+}
+
+.slog-adv::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 45px;
+    background-color: #eeeeee;
+    position: absolute;
+    right: -13px;
+    top: 27px;
+}
