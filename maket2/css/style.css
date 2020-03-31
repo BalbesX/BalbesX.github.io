@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/font/Gotham Cyrillic/GothaProBla.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    color: #7b7b7b;
+    font-size: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: Gotham;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: -0.88px;
+    color: #fff;
+}
+
+h2 {
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    color: #394b50;
+
+}
+
+.text_white {
+    color: #fff;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.btn {
+    outline: none;
+    border-radius: 2px;
+    border: solid 1px #e7ad48;
+    background-color: #ffbb42;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #6e6e6e;
+
+}
+
+.header_in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.header_link {
+    text-decoration: none;
+    padding: 12px 21px;
+    color: #868686;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    text-transform: uppercase;
+}
+
+.header_link:hover {
+    background-color: #ffbb42;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.header_active {
+    background-color: #ffbb42;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+.forms {
+    background-color: #709dca;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.forms p {
+    font-size: 13px;
+    line-height: 1.5
+}
+
+.forms_input {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.form {
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    width: 281px;
+    height: 46px;
+    border-radius: 2px;
+    padding: 0 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.form_rel {
+    position: relative;
+}
+
+.form_name::after {
+    content: "\f007";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #6e6e6e;
+    font-size: 16px;
+    top: 16px;
+    left: 14px;
+}
+
+.form_email::after {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #6e6e6e;
+    font-size: 16px;
+    top: 16px;
+    left: 13px;
+}
+
+.form_phone::after {
+    content: "\f879";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #6e6e6e;
+    font-size: 16px;
+    top: 16px;
+    left: 13px;
+}
+
+.forms .btn {
+    padding: 0 44px;
+}
+
+.form_laptop {
+    position: relative;
+    top: 67px;
+}
+
+.slider {
+    position: relative;
+}
+
+.point {
+    width: 12px;
+    height: 12px;
+    border: solid 2px #dedfe0;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.point_active {
+    border: solid 2px #1ca8dd;
+}
+
+.point:last-child {
+    margin-right: 0;
+}
+
+.points {
+    position: absolute;
+    bottom: -100px;
+    left: calc(50% - (58.5px / 2));
+
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 155px;
+
+}
+
+.service {
+    width: 50%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.icon i {
+    display: block;
+    width: 128px;
+    font-family: FontAwesome;
+    font-size: 65px;
+    text-align: center;
+    color: #709dca;
+}
+
+.service_text {
+    width: 75%;
+}
+
+.block_services_text {
+    text-align: center;
+    margin-top: 203px;
+}
+
+.service_text h3 {
+    font-family: Lato;
+    font-size: 16px;
+    color: #394b50;
+    margin-bottom: 20px;
+}
+
+.service:hover .icon i {
+    color: #f6772c;
+}
+
+.block_about_us {
+    display: flex;
+    align-items: center;
+    background-color: #ffc155;
+
+
+}
+
+.table,
+.about_us {
+    width: 50%;
+}
+
+.about_us {
+    margin-left: 80px;
+}
+
+.about_us p {
+    width: 505px;
+    margin: 28px 0 33px 0;
+}
+
+.about_us .btn {
+    padding: 12px 33px;
+}
