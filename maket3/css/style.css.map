@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_kek.sass",
+        "../sass/_vars.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
