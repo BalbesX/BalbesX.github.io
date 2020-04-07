@@ -1049,7 +1049,7 @@ ul {
       justify-content: space-around;
 }
 
-.team-card-social a, .team-card-social .social-plus {
+.social-link, .social-plus {
   color: #9ea6b1;
   text-decoration: none;
   display: block;
@@ -1070,8 +1070,18 @@ ul {
   cursor: pointer;
 }
 
-.team-card-social .social-plus {
+.social-plus {
   display: none;
+}
+
+.social-plus:hover {
+  background-color: #1a88e1;
+  color: #fff;
+}
+
+.social-link:hover {
+  background-color: #1a88e1;
+  color: #fff;
 }
 
 .team-card-social-facebook:after {

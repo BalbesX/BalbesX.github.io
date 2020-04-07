@@ -659,22 +659,29 @@ ul
     display: flex
     width: 70%
     justify-content: space-around
-    a,.social-plus
-        color: #9ea6b1;
-        text-decoration: none
-        display: block
-        width: 50px;
-        height: 50px;
-        background-color: #fafafa;
-        border-radius: 50%
-        display: flex
-        align-items: center
-        justify-content: center
-        border: none
-        cursor: pointer
-    .social-plus
-        display: none
-    
+.social-link,.social-plus
+    color: #9ea6b1;
+    text-decoration: none
+    display: block
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    border: none
+    cursor: pointer
+
+.social-plus
+    display: none
+.social-plus:hover
+    background-color: #1a88e1;
+    color: #fff
+.social-link:hover
+    background-color: #1a88e1;
+    color: #fff
+
 
 .team-card-social-facebook:after
     content: '\f39e'
