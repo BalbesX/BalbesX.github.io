@@ -391,11 +391,26 @@ h1 {
 
 .subscribe_inputs_email {
   width: 100%;
-  color: #b1c3ee;
   background-color: transparent;
   padding: 20px 170px 20px 25px;
   border-radius: 35px;
   border: solid 2px rgba(255, 255, 255, 0.2);
+}
+
+.subscribe_inputs_email::-webkit-input-placeholder {
+  color: #b1c3ee;
+}
+
+.subscribe_inputs_email::-moz-placeholder {
+  color: #b1c3ee;
+}
+
+.subscribe_inputs_email:-moz-placeholder {
+  color: #b1c3ee;
+}
+
+.subscribe_inputs_email:-ms-input-placeholder {
+  color: #b1c3ee;
 }
 
 .subscribe_inputs_syb {
