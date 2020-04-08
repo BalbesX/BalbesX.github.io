@@ -93,6 +93,64 @@ h3 {
   bottom: 40px;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 75px;
+  left: 50%;
+  width: 75%;
+  text-align: center;
+  background-color: #fff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
+}
+
+.modal li {
+  padding: 10px;
+}
+
+.modal li:hover {
+  background-color: #1a88e1;
+  color: #fff;
+}
+
+.modal a {
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #192b59;
+  border-radius: 30px;
+}
+
+.close, .bars {
+  display: none;
+  color: black;
+  font-size: 26px;
+  margin-right: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  color: #192b59;
+}
+
+.close:hover {
+  background-color: #1a88e1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bars:hover {
+  background-color: #1a88e1;
+  color: #fff;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 80px;
   font-weight: 600;
@@ -114,20 +172,6 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.bars {
-  display: none;
-  color: black;
-  font-size: 25px;
-  margin-right: 20px;
-  padding: 10px 15px;
-  border-radius: 10px;
-}
-
-.bars:hover {
-  background-color: #b1c3ee;
-  cursor: pointer;
 }
 
 .header {
@@ -611,17 +655,30 @@ h1 {
   left: -10px;
 }
 
+.block__text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
 .block-meet__video {
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
-  position: absolute;
-  right: -200px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .video-play {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
   position: absolute;
-  top: 190px;
-  right: 249px;
   cursor: pointer;
 }
 
@@ -1032,7 +1089,7 @@ ul {
 .team-card-photo {
   width: 80%;
   position: absolute;
-  top: -90px;
+  bottom: 210px;
 }
 
 .team-card-position {
@@ -1045,9 +1102,6 @@ ul {
 }
 
 .team-card-name {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   margin-top: 10px;
   font-size: 26px;
   font-weight: 600;
@@ -1087,7 +1141,7 @@ ul {
 }
 
 .social-plus {
-  display: none;
+  margin-top: 30px;
 }
 
 .social-plus:hover {
@@ -1124,7 +1178,7 @@ ul {
   font-family: FontAwesome;
 }
 
-.team-card-social-plus:after {
+.social-plus:after {
   content: '\f067';
   display: block;
   font-family: FontAwesome;
@@ -1421,8 +1475,8 @@ ul {
             justify-content: center;
     padding: 10px 0;
   }
-  .block-meet__video {
-    display: none;
+  .block-meet__video img {
+    width: 100%;
   }
   .block-meet__inner {
     padding: 0 20px;
@@ -1471,6 +1525,10 @@ ul {
   }
   .block__client__inner {
     padding: 20px 0px;
+  }
+  .video-play {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
   }
 }
 
@@ -1535,8 +1593,13 @@ ul {
   .team {
     padding: 20px;
   }
+  .team-card {
+    margin-top: 20px;
+  }
+  .team-card-name {
+    font-size: 20px;
+  }
   .team-card-social {
-    margin-top: 10px;
     width: 100%;
   }
   .team-card-photo {
@@ -1570,6 +1633,21 @@ ul {
   }
   .block__fact__inner:before {
     display: none;
+  }
+  .block-meet__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block-meet__video {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .block-meet__video img {
+    width: 50%;
+  }
+  .video-play {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
   }
 }
 
@@ -1679,7 +1757,7 @@ ul {
   .header__nav img {
     width: 120px;
   }
-  .bars {
+  .bars, .close {
     padding: 5px 10px;
     font-size: 22px;
   }
@@ -1715,11 +1793,18 @@ ul {
     width: 100%;
   }
   .team-card-social {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
   }
   .sybmit-header {
     font-size: 9vw;
+  }
+  .modal {
+    width: 100%;
+    top: 50px;
+  }
+  .block-meet__video img {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=style.css.map */

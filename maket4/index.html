@@ -16,15 +16,17 @@
         <div class="header__nav__link">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Feautres</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Screens</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Team</a></li>
+                <li><a href="#Feautres">Feautres</a></li>
+                <li><a href="#Video">Video</a></li>
+                <li><a href="#Screens">Screens</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Team">Team</a></li>
             </ul>
             <button class="bnt bnt-primary">Free trail</button>
         </div>
         <div class="bars"><i class="fas fa-bars"></i></div>
+        <div class="close"><i class="fas fa-times"></i></div>
+
 
     </div>
     <header>
@@ -52,7 +54,7 @@
             <a href="#"><img src="./image/bg-4.png" alt="token"></a>
         </div>
     </div>
-    <div class="block_features">
+    <div class="block_features" id="Feautres">
         <div class="wrap grid-container">
             <div class="grid_item1 ">
                 <span>Features</span>
@@ -217,32 +219,32 @@
         </div>
     </div>
 
-    <div class="block-meet">
-        <div class="block-meet__inner wrap">
-            <div class="block__text ">
-                <h3 class="block__header">Meet With Future Landingpage</h3>
-                <p class="block__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum.</p>
-                <span class="block-meet__opac">Available Now</span>
-                <div class="block-meet__download">
-                    <a class="download__android" href="#">
-                        <img src="./image/layer-7.png" alt="">
-                    </a>
-                    <a class="download__ios" href="#">
-                        <img src="./image/layer-8.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="block-meet__video">
-                <img src="./image/office-932926-1920.png" alt="">
-                <div class="video-play">
-                    <img src="./image/icon.png" alt="">
-                </div>
+    <div class="block-meet" ">
+        <div class=" block-meet__inner wrap">
+        <div class="block__text ">
+            <h3 class="block__header">Meet With Future Landingpage</h3>
+            <p class="block__sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum.</p>
+            <span class="block-meet__opac">Available Now</span>
+            <div class="block-meet__download">
+                <a class="download__android" href="#">
+                    <img src="./image/layer-7.png" alt="">
+                </a>
+                <a class="download__ios" href="#">
+                    <img src="./image/layer-8.png" alt="">
+                </a>
             </div>
         </div>
+        <div class="block-meet__video" id="Video">
+            <img src=" ./image/office-932926-1920.png" alt="">
+            <div class="video-play">
+                <img src="./image/icon.png" alt="">
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="block-analytic">
@@ -275,7 +277,7 @@
         </div>
     </div>
 
-    <div class="block__creenshot">
+    <div class="block__creenshot" id="Screens">
         <div class="wrap block__creenshot__inner">
             <span>screen preview</span>
             <h3>Screenshot With Details</h3>
@@ -330,7 +332,7 @@
         </div>
     </div>
 
-    <section class="plans">
+    <section class="plans" id="Pricing">
         <div class="wrap plans-inner">
             <h2 class="plans-header">Our plans</h2>'
             <span class="plans-subtitle">Pricing Plans</span>
@@ -383,7 +385,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section class="team" id="Team">
         <div class="wrap team-inner">
             <h2 class="team-header">Angels</h2>
             <span class="team-subtitle">Our Team</span>
@@ -392,10 +394,9 @@
                     <img class="team-card-photo" src="./image/5.png" alt="Ricardo">
                     <span class="team-card-position">founder</span>
                     <p class="team-card-name">Ricardo T. Obrien</p>
-                    <ul class="team-card-social">
-                        <li class="social-plus">
-                            <div class="team-card-social-plus"></div>
-                        </li>
+
+                    <button class="social-plus btn-ricardo"></button>
+                    <ul class="team-card-social social-ricardo" style="display: none;">
                         <li><a class="social-link team-card-social-facebook" href=""></a></li>
                         <li><a class="social-link team-card-social-twetter" href=""></a></li>
                         <li><a class="social-link team-card-social-be" href=""></a></li>
@@ -407,10 +408,8 @@
                     <img class="team-card-photo" src="./image/6.png" alt="Alberto">
                     <span class="team-card-position">ceo</span>
                     <p class="team-card-name">Alberto Del Rio</p>
-                    <ul class="team-card-social">
-                        <li class="social-plus">
-                            <div class="team-card-social-plus"></div>
-                        </li>
+                    <button class="social-plus btn-alberto"></button>
+                    <ul class="team-card-social social-alberto" style="display: none;">
                         <li><a class="social-link team-card-social-facebook" href=""></a></li>
                         <li><a class="social-link team-card-social-twetter" href=""></a></li>
                         <li><a class="social-link team-card-social-be" href=""></a></li>
@@ -419,13 +418,11 @@
                 </li>
 
                 <li class="team-card">
-                    <img class="team-card-photo" src="./image/7.png" alt="Thoma">
+                    <img class="team-card-photo" src="./image/7.png" alt="Thomas">
                     <span class="team-card-position">designer</span>
                     <p class="team-card-name">Thomas Alva Adison</p>
-                    <ul class="team-card-social">
-                        <li class="social-plus">
-                            <div class="team-card-social-plus"></div>
-                        </li>
+                    <button class="social-plus btn-thomas"></button>
+                    <ul class="team-card-social social-thomas" style="display: none;">
                         <li><a class="social-link team-card-social-facebook" href=""></a></li>
                         <li><a class="social-link team-card-social-twetter" href=""></a></li>
                         <li><a class="social-link team-card-social-be" href=""></a></li>
@@ -472,6 +469,50 @@
             </ul>
         </div>
     </footer>
+    <div class="modal">
+        <ul>
+            <li class="modal-link"><a href="#">Home</a></li>
+            <li class="modal-link"><a href="#Feautres">Feautres</a></li>
+            <li class="modal-link"><a href="#Video">Video</a></li>
+            <li class="modal-link"><a href="#Screens">Screens</a></li>
+            <li class="modal-link"><a href="#Pricing">Pricing</a></li>
+            <li class="modal-link"><a href="#Team">Team</a></li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-ricardo").click(function () {
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn();
+            });
+            $(".btn-alberto").click(function () {
+                $(".btn-alberto").hide();
+                $(".social-alberto").fadeIn();
+            });
+            $(".btn-thomas").click(function () {
+                $(".btn-thomas").hide();
+                $(".social-thomas").fadeIn();
+            });
+            $(".bars").click(function () {
+                $(".modal").show();
+                $(".bars").hide();
+                $(".close").show();
+
+            });
+            $(".close").click(function () {
+                $(".modal").hide();
+                $(".bars").show();
+                $(".close").hide();
+            });
+            $(".modal-link").click(function () {
+                $(".modal").hide();
+                $(".bars").show();
+                $(".close").hide();
+            });
+        });
+    </script>
+
 </body>
 
 </html>

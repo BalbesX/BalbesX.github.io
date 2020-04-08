@@ -58,9 +58,14 @@
     .block-meet
         justify-content: center
         padding: 10px 0
+
     
-    .block-meet__video
-        display: none
+    .block-meet__video img
+    
+    .block-meet__video img
+        width: 100%
+   
+
     .block-meet__inner
         padding: 0 20px
     .block-meet__download
@@ -94,7 +99,8 @@
     
     .block__client__inner
         padding: 20px 0px
-   
+    .video-play
+        transform: translateX(-10%)
 
 @media screen and ( max-width: 900px )
     .grid-container
@@ -137,8 +143,12 @@
         padding: 20px
     .team
         padding: 20px
+    .team-card
+        margin-top: 20px
+    .team-card-name
+        font-size: 20px
     .team-card-social
-        margin-top: 10px
+        // margin-top: 10px
         width: 100%       
     .team-card-photo
         box-shadow: 0px 0px 30px 0 rgba(156, 156, 156, 1);
@@ -160,7 +170,14 @@
         display: none
     .block__fact__inner:before
         display: none
-    
+    .block-meet__inner
+        flex-wrap: wrap
+    .block-meet__video
+        flex-basis: 100%
+        img
+            width: 50%
+    .video-play
+        transform: translateX(10%)
 @media screen and ( max-width: 735px )
     .robot
         display: none
@@ -243,7 +260,7 @@
         padding: 5px
         img
             width: 120px
-    .bars
+    .bars, .close
         padding: 5px 10px
         font-size: 22px
        
@@ -278,7 +295,13 @@
         p 
             width: 100%
     .team-card-social
-        margin-top: 10px
+        margin-top: 30px
         width: 100%
     .sybmit-header
         font-size: 9vw   
+    .modal
+        width: 100%
+        top: 50px
+    .block-meet__video
+        img
+            width: 70%

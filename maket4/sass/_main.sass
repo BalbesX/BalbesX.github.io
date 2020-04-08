@@ -74,3 +74,53 @@ h3
     box-shadow: 0px 8px 16px 0 rgba(16, 133, 228, 0.4);
     position: relative
     bottom: 40px
+
+.modal
+    display: none
+    position: fixed
+    z-index: 1000
+    top: 75px
+    left: 50%
+    width: 75%
+    text-align: center
+    background-color: #fff
+    transform: translateX(-50%)
+    border-radius: 0 0 30px 30px
+    overflow: hidden
+    li
+        padding: 10px
+        &:hover
+            background-color: #1a88e1;
+            color: #fff
+           
+    a
+        text-decoration: none
+        font-size: 22px
+        letter-spacing: 2.4px;
+        font-weight: bold;
+        text-transform: uppercase
+        font-weight: bold;
+        color: #192b59
+      
+        border-radius: 30px
+        
+
+.close, .bars
+    display: none
+    color: black
+    font-size: 26px
+    margin-right: 20px
+    padding: 15px 20px 
+    border-radius: 10px
+    border: none
+    color: #192b59
+
+.close:hover
+    background-color: #1a88e1;
+    color: #fff
+    cursor: pointer
+
+.bars:hover
+    background-color: #1a88e1;
+    color: #fff
+    cursor: pointer

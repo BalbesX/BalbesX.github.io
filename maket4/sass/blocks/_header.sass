@@ -12,16 +12,7 @@ h1
     display: flex
     justify-content: space-between
     align-items: center
-.bars
-    display: none
-    color: black
-    font-size: 25px
-    margin-right: 20px
-    padding: 10px 15px
-    border-radius: 10px
-.bars:hover
-    background-color: #b1c3ee;
-    cursor: pointer
+
 
 
 .header 
@@ -351,17 +342,18 @@ h1
     position: relative
     left: -10px
 
-// .block__text
-//     flex-basis: 55%
+.block__text
+    flex-basis: 50%
 .block-meet__video
-    flex-basis: 45%
-    position: absolute
-    right: -200px
+    flex-basis: 50%
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
 
 .video-play
+    transform: translateX(-20%)
     position: absolute
-    top: 190px;
-    right: 249px
     cursor: pointer
 .block-graph
     display: flex
@@ -648,7 +640,7 @@ ul
 .team-card-photo
     width: 80%
     position: absolute
-    top: -90px
+    bottom: 210px
 .team-card-position
     margin-top: 20px
     font-size: 14px;
@@ -657,7 +649,7 @@ ul
     color: #1a88e1;
     text-transform: uppercase
 .team-card-name
-    flex-grow: 1
+    // flex-grow: 1
     margin-top: 10px
     font-size: 26px;
     font-weight: 600;
@@ -683,7 +675,7 @@ ul
     cursor: pointer
 
 .social-plus
-    display: none
+    margin-top: 30px
 .social-plus:hover
     background-color: #1a88e1;
     color: #fff
@@ -708,7 +700,7 @@ ul
     content: '\f268'
     display: block
     font-family: FontAwesome
-.team-card-social-plus:after
+.social-plus:after
     content: '\f067'
     display: block
     font-family: FontAwesome
