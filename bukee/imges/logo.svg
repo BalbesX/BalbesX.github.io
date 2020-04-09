@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="28">
+    <text x="39" y="24" fill="#FEFEFE" font-family="RobotoSlab" font-size="28" font-weight="bold">
+        BUKEE
+    </text>
+    <path fill="#65E496" fill-rule="evenodd" d="M28 27.999l-28-28h28v28z"/>
+    <path fill="#80809B" fill-rule="evenodd" d="M28-.001l-28 28v-28h28z"/>
+</svg>
