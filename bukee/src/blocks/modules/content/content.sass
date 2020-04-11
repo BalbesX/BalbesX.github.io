@@ -1,0 +1,71 @@
+.block-content
+    padding-bottom: 255px
+    padding-top: 155px
+    background-color: #f5f6fa;
+    &__inner
+        display: flex
+        justify-content: space-between
+        margin-top: 65px
+    &__title
+        text-align: center
+    &__subtitle
+        text-align: center
+        display: block
+        margin-top: 5px
+    
+
+
+.block-about
+    flex-basis: 41%
+    &__title
+        font-size: 24px
+        letter-spacing: normal
+        font-weight: bold
+        letter-spacing: 1.2px;
+        font-family: $roboto
+.block-table
+    flex-basis: 49%
+    &__title
+        @extend .block-about__title
+    &__btn
+        margin-top: 8px
+        padding: 13px 45px
+    &__list
+        margin-top: 23px
+        column-count: 2
+        counter-reset: myCounter;
+        padding: 0
+    &__item
+        list-style: none;
+        position: relative
+        margin-bottom: 21px
+        line-height: 10px
+        padding-left: 35px
+        &::before
+            counter-increment: myCounter 
+            content: counter(myCounter)". "
+        &::after
+            content: "+"
+            color: #fff
+            background-color: $green
+            position: absolute
+            left: 0
+            top: -5px
+            padding: 6px
+    
+
+.block-featured
+    display: flex
+    margin-top: 25px
+    &__title
+        font-size: 18px;
+        font-weight: bold
+        margin: 0
+    &__links
+        display: flex
+        list-style-type: none
+    &__link
+        a
+            color: $green
+            font-size: 18px
+            margin-left: 20px

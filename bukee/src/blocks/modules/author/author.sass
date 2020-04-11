@@ -1,0 +1,26 @@
+.block-author
+    padding-top: 170px
+    &__inner
+        display: flex
+        justify-content: space-between
+    .block-text
+        &__title
+            margin-top: 20px
+        &__btn
+            padding: 9px 30px
+    &__photo
+        margin-top: 35px
+        margin-right: 45px
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            z-index: -1
+            top: -47px
+            left: 47px
+            display: block
+            width: 435px;
+            height: 558px;
+            background: rgb(84,183,161);
+            background: linear-gradient(310deg, rgba(84,183,161,1) 0%, rgba(66,99,132,1) 100%);
+   
