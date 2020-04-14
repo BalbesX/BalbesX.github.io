@@ -1,0 +1,40 @@
+.block-coment
+    text-align: center
+    padding-top: 200px
+    padding-bottom: 220px
+    background-color: $black
+    &__photo
+        position: relative
+        display: inline-block
+        img
+            width: 152px;
+            height: 152px;
+            border-radius: 50%
+        &::before
+            content: "\f10e"
+            font-family: FontAwesome
+            display: block
+            font-size: 48px
+            position: absolute
+            top: -20px
+            right: -15px
+            color: $green
+    &__name
+        margin-top: 12px
+        font-size: 24px;
+        font-weight: bold
+        color: $green
+        font-family: $roboto
+        span
+            display: block
+            font-size: 15px
+            font-family: $opensans
+            color: #9191b5
+            font-weight: normal
+            margin-bottom: 30px
+    &__feedback
+        max-width: 740px
+        margin: 0 auto
+        line-height: 1.87
+        color: #9191b5
+    &__slider

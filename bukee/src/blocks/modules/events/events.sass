@@ -1,0 +1,49 @@
+.block-events
+    padding-top: 220px
+    &__inner
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
+        align-items: center
+    .block-text
+        flex-basis: 48.6%
+        &__author
+            color: #696980;
+        &__title
+            margin-top: 20px
+        &__subtitle
+            margin-bottom: 40px
+    &__photo
+        position: relative
+        top: -15px
+        left: 52px
+        &::before
+            content: ""
+            display: block
+            width: 435px;
+            height: 704px;
+            background-image: linear-gradient(to top, #5acab1, #426384);
+            position: absolute
+            top: -50px
+            left: -50px
+            z-index: -1
+    
+.events
+.event
+    margin-bottom: 55px
+    list-style-type: none
+    &__date
+        color: #696980
+    &__name
+        font-size: 18px;
+        font-weight: bold
+        color: $black
+        letter-spacing: 0.9px
+        font-family: $roboto
+    &__description
+        color: #696980
+        max-width: 560px
+    &__btn
+        padding: 14px 30px
+        letter-spacing: 0.72px
+        margin-top: 10px
